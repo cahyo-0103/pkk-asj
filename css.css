@@ -9,10 +9,10 @@ body{
 }
 
 nav{
-    background-color: green;
+    background-color: #28a745;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 20px;
 }
 
 nav ul{
@@ -20,7 +20,8 @@ nav ul{
     list-style: none;
     align-items: center;
     gap: 20px;
-    text-align: center;
+    text-align: center; 
+    padding-right: 100px;
 }
 
 nav ul li a{
@@ -34,7 +35,10 @@ nav ul li a{
 }
 
 nav div img{
-    max-width: 40px;
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
 }
 
 nav ul li a:hover{
@@ -48,17 +52,18 @@ nav ul li a:active{
     border-bottom: 1px solid #412c00;
 }
 
-.icon{
+.list{
     display: flex;
     align-items: center;
     font-size: 28px;
     color: aliceblue;
+    margin-right: 50px;
 }
 
-.icon:hover{
+.list:hover{
     color: #ff9924;
 }
-.icon:active{
+.list:active{
     color: #412c00;
 }
 
@@ -67,5 +72,34 @@ nav ul{
     display: none;
 
 }
+}
+
+@media only screen and (min-width : 768px){
+    .list{
+        display: none;
+    
+    }
+}
+
+.cari{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-right: 50px;
+
+}
+.cari:hover{
+    color: #ff9924;
+}
+.cari:active{
+    color: #412c00;
+}
+
+@media only screen and (max-width : 768px){
+    .cari{
+       display: none;
+
+    }
 
 }
