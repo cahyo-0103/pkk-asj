@@ -82,7 +82,7 @@ nav ul li a:active{
     height: 1024px;
     flex-wrap: wrap;
     display: flex;
-    width: 720px;
+    width: 768px;
     min-width: 100%;
 }
 
@@ -117,8 +117,9 @@ height: 750px;
 .teks{
     padding-top: 125px;
     padding-left: 100px;
-    padding-bottom: 100%;
+    padding-bottom: 124px;
     width: 600px;
+    max-height: 1024px;
     justify-content: space-around;
 }
 .besar{
@@ -167,6 +168,7 @@ height: 750px;
     justify-content: center ;
     color: aliceblue; 
     font-weight: 500;    
+    text-decoration: none;
 }
 .gbr-gentur{
     height: 1000px;
