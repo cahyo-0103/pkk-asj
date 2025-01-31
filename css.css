@@ -5,7 +5,7 @@
 }
 body{
     background-color: rgb(209, 209, 209);
-    width: auto;
+
 }
 
 nav{
@@ -13,7 +13,6 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    
 }
 
 nav ul{
@@ -22,7 +21,6 @@ nav ul{
     align-items: center;
     gap: 20px;
     text-align: center;
-
 }
 
 nav ul li a{
@@ -37,40 +35,37 @@ nav ul li a{
 
 nav div img{
     max-width: 40px;
-
 }
 
 nav ul li a:hover{
-    border-bottom: 1px solid rgb(255, 174, 0);
-    color: rgb(255, 174, 0);
+    border-bottom: 1px solid #ff9924;
+    color: #ff9924;
     
     
+}
+nav ul li a:active{
+    color: #412c00;
+    border-bottom: 1px solid #412c00;
 }
 
 .icon{
     display: flex;
     align-items: center;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
     color: aliceblue;
-    transition-duration: 300ms;
 }
 
 .icon:hover{
-    color: rgb(255, 174, 0);
+    color: #ff9924;
+}
+.icon:active{
+    color: #412c00;
 }
 
-@media only screen & (max-width ; 768px){
-    nav ul li{
-        display: none;
-
-    }
+@media only screen and (max-width : 768px){
+nav ul{
+    display: none;
 
 }
 
-@media screen {
-    nav ul li {
-        display: ;
-    
-    }
 }
