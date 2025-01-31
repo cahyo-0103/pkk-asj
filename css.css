@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(209, 209, 209);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 nav{
@@ -83,6 +81,9 @@ nav ul li a:active{
     background-image: linear-gradient(180deg, #0c6320, #55eb77);
     height: 1024px;
     flex-wrap: wrap;
+    display: flex;
+    width: 720px;
+    min-width: 100%;
 }
 
 .acp{
@@ -115,7 +116,7 @@ height: 750px;
 
 .teks{
     padding-top: 125px;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-bottom: 100%;
     width: 600px;
     justify-content: space-around;
@@ -166,4 +167,10 @@ height: 750px;
     justify-content: center ;
     color: aliceblue; 
     font-weight: 500;    
+}
+.gbr-gentur{
+    height: 1000px;
+    justify-content: left;
+    margin-left: auto;
+    position:inherit
 }

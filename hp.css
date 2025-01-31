@@ -1,6 +1,6 @@
 
 /*jika di buka di hp navbar ilang*/
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 760px){
     nav ul{
         display: none;
     
@@ -8,7 +8,7 @@
 } 
 
 /*jika di buka di laptop list ilang*/
-@media only screen and (min-width : 768px){
+@media only screen and (min-width : 760px){
     .list{
         display: none;
         
@@ -16,19 +16,19 @@
 }
 
 /*jika di buka di hp*/
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 760px){
     .cari{
        display: none;
 
     }
 }
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 760px){
     nav div img{
         margin-left: 0px;
 
     }
 }
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 760px){
     .list{
         margin-right: 0px;
 
@@ -36,9 +36,18 @@
 }
 
 /*navbar mengecil jika di buka di hp*/
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 760px){
     nav{
-        padding: 10px;
+        padding: 20px;
 
     }
+}
+
+/*gambar gentur*/
+@media only screen and (max-width : 760px){
+    .gbr-gentur{
+        display: none;
+
+    }
+
 }
