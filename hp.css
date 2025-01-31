@@ -38,7 +38,7 @@
 /*navbar mengecil jika di buka di hp*/
 @media only screen and (max-width : 760px){
     nav{
-        padding: 20px;
+        padding: 30px;
 
     }
 }
