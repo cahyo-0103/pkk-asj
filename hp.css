@@ -1,0 +1,44 @@
+
+/*jika di buka di hp navbar ilang*/
+@media only screen and (max-width : 768px){
+    nav ul{
+        display: none;
+    
+    }
+} 
+
+/*jika di buka di laptop list ilang*/
+@media only screen and (min-width : 768px){
+    .list{
+        display: none;
+        
+    }
+}
+
+/*jika di buka di hp*/
+@media only screen and (max-width : 768px){
+    .cari{
+       display: none;
+
+    }
+}
+@media only screen and (max-width : 768px){
+    nav div img{
+        margin-left: 0px;
+
+    }
+}
+@media only screen and (max-width : 768px){
+    .list{
+        margin-right: 0px;
+
+    }
+}
+
+/*navbar mengecil jika di buka di hp*/
+@media only screen and (max-width : 768px){
+    nav{
+        padding: 10px;
+
+    }
+}
