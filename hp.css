@@ -25,8 +25,7 @@
 @media only screen and (max-width : 760px){
     nav div img{
         margin-left: 0px;
-        max-width: 200px;
-
+        max-width: 240px;
     }
 }
 @media only screen and (max-width : 760px){
@@ -40,15 +39,39 @@
 /*navbar mengecil jika di buka di hp*/
 @media only screen and (max-width : 760px){
     nav{
-        padding: 20px;
+        padding: 30px;
 
     }
 }
 
 /*gambar gentur*/
-@media only screen and (max-width : 1300px){
+@media only screen and (max-width : 940px){
     .gbr-gentur{
         display: none;
+    }
+}
+@media only screen and (min-width : 1020px){
+    .gbr-gentur1{
+        max-width: fit-content;
+        max-height: 600px; 
+        align-self: end;
+        margin-top: auto;
+    }
+}
+@media only screen and (max-width : 1019px){
+    .gbr-gentur1{
+        max-width: fit-content;
+        max-height: 500px; 
+        align-self: end;
+        margin-top: auto;
+    }
+}
+@media only screen and (min-width : 1200px){
+    .gbr-gentur1{
+        max-width: fit-content;
+        max-height: 900px; 
+        align-self: end;
+        margin-top: auto;
     }
 }
 
@@ -57,7 +80,7 @@
         height: 1500px;
     }
 }
-@media only screen and (min-width : 1299px){
+@media only screen and (min-width :950px){
     .hp-gentur{
         display: none;
     }
@@ -68,6 +91,20 @@
     .hp-gentur{
         height: 800px;
         justify-content: left;
-        padding-left: 65px;
+    }
+}
+
+@media only screen and (min-width : 950px){
+    .hp-gentur1{
+        justify-content: right;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width : 760px){
+    .teks{
+        padding-top: 130px;
+        
     }
 }

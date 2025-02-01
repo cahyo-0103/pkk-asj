@@ -82,7 +82,6 @@ nav ul li a:active{
     height: 1024px;
     flex-wrap: wrap;
     display: flex;
-    width: 768px;
     min-width: 100%;
 }
 
@@ -115,7 +114,7 @@ height: 750px;
 }
 
 .teks{
-    padding-top: 125px;
+    padding-top: 200px;
     padding-left: 100px;
     padding-bottom: 124px;
     width: 600px;
@@ -148,19 +147,41 @@ height: 750px;
     justify-content: space-around;
     margin-bottom: 45px;
 }
+.kntk:hover {
+  
+    color: #0c6320;
+    font-weight: 500;  
+    background-color: rgb(197, 197, 197);
+    border-radius: 8px;
+  
+}
 .kntk {
   
     color: #0c6320;
-    font-weight: 500;   
+    font-weight: 500;  
+    text-decoration: none; 
 }
 .mds {
  
     font-weight: 500;
     color: #0c6320;
+    text-decoration: none;
 }
+
+.mds:hover {
+ 
+    font-weight: 500;
+    color: #0c6320;
+    background-color: rgb(197, 197, 197);
+    border-radius: 8px;
+}
+
+
+
+
 .npr{
     background-color: #ff9924;
-    padding: 15px;
+    padding: 20px;
     max-width: 300px;
     border: aliceblue;
     border-radius: 18px;
@@ -170,13 +191,97 @@ height: 750px;
     font-weight: 500;    
     text-decoration: none;
 }
+.npr:hover{
+    background-color: #c7771c;
+    padding: 20px;
+    max-width: 300px;
+    border: aliceblue;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center ;
+    color: aliceblue; 
+    font-weight: 500;    
+    text-decoration: none;
+}
+.npr:active{
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 300px;
+    border: aliceblue;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center ;
+    color: #ff9924; 
+    font-weight: 500;    
+    text-decoration: none;
+}
 .gbr-gentur{
-    height: 1000px;
+    height: 800px;
     justify-content: left;
     margin-left: auto;
+    margin-top: 100px;
     position:inherit
 }
 .hp-gentur{
     display: flex;
     height: 476px;
+    min-width: 100%;
 }
+.hp-gentur1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*KERJA SAMA INDUSTRI*/
+.tebal-acp{
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.kecil-acp{
+    max-width: 902px;
+    max-height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+/*AXIOO CLASS PROGRAM*/
+.axioo{
+    padding: 30px;
+    max-width: 800px;
+    max-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+.gbr-axioo{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gbr-axioo2{
+    max-width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tebal-acp2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.kecil-acp2{
+    max-width: 722px;
+    max-height: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
