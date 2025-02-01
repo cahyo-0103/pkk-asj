@@ -176,3 +176,7 @@ height: 750px;
     margin-left: auto;
     position:inherit
 }
+.hp-gentur{
+    display: flex;
+    height: 476px;
+}

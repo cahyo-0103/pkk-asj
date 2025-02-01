@@ -48,14 +48,26 @@
 /*gambar gentur*/
 @media only screen and (max-width : 1300px){
     .gbr-gentur{
-        max-height: 500px;
-        object-position: center bottom;
-        object-fit: fill;
+        display: none;
     }
 }
 
-@media only screen and (max-width : 1300px){
+@media only screen and (max-width : 950px){
     .gentur{
         height: 1500px;
+    }
+}
+@media only screen and (min-width : 1299px){
+    .hp-gentur{
+        display: none;
+    }
+
+
+}
+@media only screen and (min-width : 1240px){
+    .hp-gentur{
+        height: 800px;
+        justify-content: left;
+        padding-left: 65px;
     }
 }
