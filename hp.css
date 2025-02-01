@@ -25,13 +25,15 @@
 @media only screen and (max-width : 760px){
     nav div img{
         margin-left: 0px;
-        max-width: 240px;
+        max-width: 140px;
+        padding-left: 10px;
     }
 }
 @media only screen and (max-width : 760px){
     .list{
         margin-right: 0px;
-        font-size: 60px;
+        font-size: 38px; 
+        padding-right: 10px;
 
     }
 }
@@ -39,7 +41,7 @@
 /*navbar mengecil jika di buka di hp*/
 @media only screen and (max-width : 760px){
     nav{
-        padding: 30px;
+        padding: 12px;
 
     }
 }
@@ -78,6 +80,7 @@
 @media only screen and (max-width : 950px){
     .gentur{
         height: 1500px;
+        width: 100%;
     }
 }
 @media only screen and (min-width :950px){
@@ -102,9 +105,112 @@
     }
 }
 
-@media only screen and (min-width : 760px){
+
+/*GENTUR DI BUKA DI HP*/
+@media only screen and (max-width : 760px){
     .teks{
-        padding-top: 130px;
-        
+        padding-top: 98px; 
+        padding-left: 20px;   
+        max-height: 700px; 
+    }
+    .besar{
+        color: antiquewhite;    
+        padding-bottom: 45px;
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+    }
+    .tebal{
+        color: aliceblue;
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+    .kata{
+        color: aliceblue;
+        padding-bottom: 50px;
+        font-size: 12px;
+    }
+    .shape {
+        background-color: aliceblue;
+        padding: 15px;
+        border: aliceblue;
+        border-radius: 18px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        width: 200px;
+    }
+    .npr{
+        background-color: #ff9924;
+        padding: 15px;
+        max-width: 300px;
+        border: aliceblue;
+        border-radius: 18px;
+        display: flex;
+        justify-content: center ;
+        color: aliceblue; 
+        font-weight: 500;    
+        text-decoration: none;
+    }
+    .gentur{
+        height: 1000px;
+        width: 100%;
+    }
+    .hp-gentur{
+        height: 270px;
+    }
+}
+
+/*ACP DI BUKA DI HP*/
+@media only screen and (max-width : 760px){
+    .tebal-acp{
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 14px; 
+    }
+    .kecil-acp{
+        width: 290px;
+        max-height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+    /*AXIOO*/
+    .axioo{
+        padding: 20px;
+        max-width: 300px;
+        max-height: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;   
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 50px;
+        padding-bottom: 60px;
+    }
+    .gbr-axioo2{
+        max-width: 169px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tebal-acp2{
+        text-align: center;
+        padding-bottom: 20px;
+    
+    }
+    .kecil-acp2{
+        max-width: 722px;
+        max-height: 105px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .acp{
+        background-color: aliceblue;
+        height: 600px; 
     }
 }
