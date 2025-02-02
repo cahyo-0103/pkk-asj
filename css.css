@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,6 +15,7 @@ nav{
     padding: 10px;
     width: 100%;
     position: fixed;
+    z-index: 10000;
     
 }
 
@@ -87,12 +89,44 @@ nav ul li a:active{
 
 .acp{
     background-color: aliceblue;
-    height: 746px;
+    height: 700px;
+
+}
+
+
+
+
+.kosong{
+    width: 100%;
+    height: 5vw;
+}
+.bg-pic{
+    background-color: aqua;
+    height: 1200px;
+    position: relative;
 }
 .pic{
-    background-color: #0c6320;
-    height: 1422px;
+    background-color: #3CC95D;
+    height: 800px;
+    width: 100%; 
+    margin-top: 100px; 
+    margin-bottom: 19vw; 
+    transform: skewY(-20deg);
+    border-top: 50px solid #0c6320;
+    border-bottom: 50px solid #0c6320;
+
+    position: absolute;
 }
+.isi-pic{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 500px;
+}
+
+
+
 .berita{
     height: 1290px;
     background-color: #412c00;
