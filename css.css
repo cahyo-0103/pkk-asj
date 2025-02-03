@@ -101,7 +101,6 @@ nav ul li a:active{
     height: 5vw;
 }
 .bg-pic{
-    background-color: aqua;
     height: 1200px;
     position: relative;
 }
@@ -122,24 +121,73 @@ nav ul li a:active{
     z-index: 1;
     text-align: center;
     color: rgb(0, 0, 0);
-    margin-top: 500px;
+    display: flex;
+}
+/*PIC*/
+.kajur{
+    height: 820px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 80px; 
+
+}
+.label-kajur{
+    background-color: aliceblue;
+    width: 398px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 23px;
+}
+.nama-kajur{
+    color: #ff9924;
+    text-align: center;
+    font-size: 24px;
+}
+.ket-nama-kajur{
+    text-align: center;
+    font-size: 20px;
+}
+
+.teks-pic{
+    color: aliceblue;
+    margin-top: 100px;
+    width: 630px;
+    height: 490px; 
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 200px; 
+}
+.tebal-pic{
+    font-size: 32px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    width: 315px; 
+}
+.kecil-pic{
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.salam-pic{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.gentur123{
+    width: 450px;
 }
 
 
 
 .berita{
-    height: 1290px;
-    background-color: #412c00;
-
-
+    height: 1200px;
 }
 .medsos{
     height: 555px;
-    background-color: blue;
 }
 .yt{
-background-color: #55eb77;
-height: 750px;
+    height: 420px;
 }
 .kontak{
     height: 440px;
@@ -315,3 +363,116 @@ height: 750px;
     padding-bottom: 20px;
 }
 
+/*BERITA*/
+.brt{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.90);
+    margin-bottom: 30px;
+    font-size: 48px;
+}   
+.isi-brt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all-brt{
+    margin-left: auto;
+    margin-right: auto;
+}
+.brt-shape{
+    background-color: aliceblue;
+    width: 280px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gbr-brt{
+    width: 280px; 
+    max-height: 150px;
+    border-radius: 25px 25px 0px 0px; 
+    border-bottom: 10px solid #0c6320;
+}
+
+.judul-brt{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tgl-brt{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ket-brt{
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*MEDSOS*/
+.all-mds{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mds-link{
+    background-color: aliceblue;
+    width: 280px;
+    height: 380px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: black;
+}
+.mds-link:hover{
+    background-color: #f1f1f1;
+    width: 290px;
+    height: 390px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    color: black;
+}
+.teks-mds1{
+    text-align: center;
+    font-size: 48px;
+
+}
+.logo-mds{
+    font-size: 200px;
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+}
+.teks-mds{
+    text-align: center;
+    font-size: 18px;
+    max-width: 148px;
+    max-height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*LINK VIDEO YOUTUBE TKJ*/
+.link-yt{
+    width: 560px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+
+}
